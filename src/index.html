@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <title>WEB 2890 - Project 2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <meta name="description" content="TODO: Project 2 ...">
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-1n8WzGt+1Tt9zTgTliR8WJYalYvQJff1j/iJZtGmHt3vqzgvm9d01pK8MTsWfcYvPRZ2gIGZ/TmL8A1W0FvJjQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-p5S5o5P53w5Z6bR7VjKvzgQ1VXYRoCzBnMGGggk1qohUR7gVEfPnO6U/4Itki4XNUb+Sov6UfAf5py5S"></script>
+  
 
-  <link rel="stylesheet" href="./stylesheets/main.scss">
+
 </head>
 
 <body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Project 2: A multiple-page project of your choosing.
-  </h1>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">My Website</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <script type="module" src="./javascripts/main.js"></script>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Welcome to my Homepage</h1>
+      <p>This is a sample homepage created using HTML and CSS.</p>
+      <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Section 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae nulla quis leo congue tincidunt ac vel nisl.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Section 2</h2>
+        <p>Proin sit amet enim ut elit tempus laoreet. Etiam at erat vel turpis pulvinar scelerisque.</p>
+      </div>
+    </div>
+  </div>
+
+ 
 </body>
 </html>
